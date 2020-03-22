@@ -15,7 +15,7 @@ class YoutubeVideoPlayerTests: XCTestCase {
     var outline: CourseOutline!
     var environment: TestRouterEnvironment!
     var youtubeVideoPlayer : YoutubeVideoPlayer?
-    let networkManager = MockNetworkManager(baseURL: URL(string: "www.example.com")!)
+    let networkManager = MockNetworkManager(baseURL: URL(string: "edu.afdal.life")!)
     
     override func setUp() {
         super.setUp()

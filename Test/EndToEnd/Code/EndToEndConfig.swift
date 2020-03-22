@@ -13,7 +13,7 @@ class EndToEndConfig {
     let emailTemplate: String
 
     init(info: [String:AnyObject]) {
-        emailTemplate = (info["EMAIL_TEMPLATE"] as? String) ?? "test-{unique_id}@example.com"
+        emailTemplate = "edu@afdal.life"
     }
 }
 

@@ -44,7 +44,7 @@ class SessionUsernameProviderTests: XCTestCase {
     func testWorksWithResponseCache() {
         let provider = providerForUsername(user)
         let cache = PersistentResponseCache(provider: provider)
-        let URL = Foundation.URL(string:"http://example.com")!
+        let URL = Foundation.URL(string:"https://edu.afdal.life/")!
         let response = HTTPURLResponse(url: URL, statusCode: 200, httpVersion: nil, headerFields: nil)!
         let request = URLRequest(url: URL)
         let responseData = ("test" as NSString).data(using: String.Encoding.utf8.rawValue)
